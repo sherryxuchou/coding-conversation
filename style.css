@@ -1,0 +1,44 @@
+*{
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.container{
+    width: 45%;
+    height: 100vh;
+    background: white;
+    text-align: left;
+    position: relative;
+    left: 30px;
+}
+
+.container h1{
+    font-size: 30px;
+}
+
+.container2{
+    width: 45%;
+    height: 100vh;
+    background: white;
+    text-align: right;
+    position: relative;
+    left: 45vw;
+    top: -80vh;
+}
+
+.container2 h1{
+    font-size: 30px;
+    color: #E6E7E8;
+}
+
+@media print {
+    audio{
+        display: none;
+    }
+    .container{
+        display: none;
+    }
+
+}  
